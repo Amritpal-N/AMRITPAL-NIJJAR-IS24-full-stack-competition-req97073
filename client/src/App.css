@@ -1,0 +1,109 @@
+/* Apply box sizing: border-box to all elements  */
+* {
+  box-sizing: border-box;
+}
+
+/* Set default font and background color for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set width, margin, padding, and background color for the App container */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Set font size and bottom margin for the h1 elements */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style input elements */
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Style error messages */
+.error-message {
+  color: #f00;
+  margin: 5px;
+}
+
+/* Style table elements */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style table cells */
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style table header */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Style even rows with a different background color */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style buttons */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Change button background color on hover */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style edit buttons */
+button.edit {
+  background-color: #4285f4;
+}
+
+/* Change edit button background color on hover */
+button.edit:hover {
+  background-color: #1c7de8;
+}
+
+/* Style count display elements */
+.count-display {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Add margin to the input following count-display */
+.count-display + input {
+  margin-top: 20px;
+}

@@ -1,0 +1,52 @@
+
+/* Set table width, border-collapse, and bottom margin */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  /* Set padding and border for table cells */
+th,
+td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+/* Style table headers with a background color and text alignment */
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+/* Style even rows with a different background color */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Change row background color on hover */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Style buttons in the table */
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Change button background color on hover */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style error messages in the table */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+  
